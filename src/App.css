@@ -1,0 +1,73 @@
+* {
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 2px 6px 2px 6px;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(16, 16, 65);
+}
+
+.container {
+  background-color: rgb(40, 40, 100);
+  padding: 15px;
+  max-width: 800px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  margin-bottom: 26px;
+}
+
+.followers {
+  display: flex;
+}
+
+.follower-top {
+  display: flex;
+}
+
+.follower-box {
+  margin: 12px;
+  padding: 15px;
+  background-color: rgb(30, 30, 160);
+  border-radius: 4px;
+}
+
+.overview-title {
+  margin-bottom: 6px;
+}
+
+.actions {
+  
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.actions-box-div {
+  margin: 12px;
+  padding: 15px;
+  background-color: rgb(30, 30, 160);
+  border-radius: 4px;
+}
+
+.action-box-div-top {
+  display: flex;
+  justify-content: space-between;
+}
+.action-box-div-bot {
+  display: flex;
+  justify-content: space-between;
+}
